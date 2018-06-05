@@ -1,6 +1,9 @@
 {
 	"name": "SkyPress/wp-composer-test",
 	"description": "SkyPress WordPress Composer Test Project",
+	"config": {
+		"vendor-dir": "wp-content/vendor"
+	},
 	"repositories": [{
 			"type": "composer",
 			"url": "https://wpackagist.org"
@@ -8,13 +11,17 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:skypress-bmo/wp-composer-hello-world-plugin.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:skypress-bmo/wp-composer-theme.git"
 		}
 	],
 	"require": {
 		"wpackagist-plugin/gutenberg": "~3.0.0",
-		"wpackagist-theme/edsbootstrap": "~2.0",
+		"wpackagist-theme/wp-bootstrap-4": "~1.0.8",
 		"wpackagist-plugin/wordpress-seo": "~7.6",
-		"wpackagist-plugin/subtitles": "^3.0",
-		"SkyPress/wp-composer-hello-world": "dev-master"
+		"SkyPress/wp-composer-hello-world": "dev-master",
+		"SkyPress/wp-composer-theme": "dev-master"
 	}
 }

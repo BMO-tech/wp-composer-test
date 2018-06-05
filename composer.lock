@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce7838b744c0b6b3c3976244a3da8671",
-    "content-hash": "076f0584dba9c2a1c01462add14c38cc",
+    "hash": "57786dbcc256d7e0da035cf12227525c",
+    "content-hash": "47f05b7e3f9b17381bb60938012c08e0",
     "packages": [
         {
             "name": "SkyPress/wp-composer-hello-world",
@@ -40,6 +40,40 @@
                 "issues": "https://github.com/skypress-bmo/wp-composer-hello-world-plugin/issues"
             },
             "time": "2018-06-05 18:44:11"
+        },
+        {
+            "name": "SkyPress/wp-composer-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skypress-bmo/wp-composer-theme.git",
+                "reference": "b2e1f01b8677493470bae802e39c289ca521e8a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skypress-bmo/wp-composer-theme/zipball/b2e1f01b8677493470bae802e39c289ca521e8a7",
+                "reference": "b2e1f01b8677493470bae802e39c289ca521e8a7",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BMO",
+                    "email": "bmo@skypress.io"
+                }
+            ],
+            "description": "WP Composer Test Hello World Plugin",
+            "support": {
+                "source": "https://github.com/skypress-bmo/wp-composer-theme/tree/master",
+                "issues": "https://github.com/skypress-bmo/wp-composer-theme/issues"
+            },
+            "time": "2018-06-05 21:46:29"
         },
         {
             "name": "composer/installers",
@@ -182,26 +216,6 @@
             "homepage": "https://wordpress.org/plugins/gutenberg/"
         },
         {
-            "name": "wpackagist-plugin/subtitles",
-            "version": "3.0.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/subtitles/",
-                "reference": "tags/3.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/subtitles.3.0.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/subtitles/"
-        },
-        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "7.6",
             "source": {
@@ -222,16 +236,16 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
-            "name": "wpackagist-theme/edsbootstrap",
-            "version": "2.0",
+            "name": "wpackagist-theme/wp-bootstrap-4",
+            "version": "1.0.8",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/edsbootstrap/",
-                "reference": "2.0"
+                "url": "https://themes.svn.wordpress.org/wp-bootstrap-4/",
+                "reference": "1.0.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/edsbootstrap.2.0.zip",
+                "url": "https://downloads.wordpress.org/theme/wp-bootstrap-4.1.0.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -239,14 +253,15 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/edsbootstrap/"
+            "homepage": "https://wordpress.org/themes/wp-bootstrap-4/"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "skypress/wp-composer-hello-world": 20
+        "skypress/wp-composer-hello-world": 20,
+        "skypress/wp-composer-theme": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
