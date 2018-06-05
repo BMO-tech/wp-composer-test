@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/skypress-bmo/wp-composer-hello-world-plugin.git",
-                "reference": "f681a94f02badf43aaf5e3c8b276a71dfd5f4b7c"
+                "reference": "b4cb1c04aac9acd1953f9b3a879f6a4a9b7939fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skypress-bmo/wp-composer-hello-world-plugin/zipball/f681a94f02badf43aaf5e3c8b276a71dfd5f4b7c",
-                "reference": "f681a94f02badf43aaf5e3c8b276a71dfd5f4b7c",
+                "url": "https://api.github.com/repos/skypress-bmo/wp-composer-hello-world-plugin/zipball/b4cb1c04aac9acd1953f9b3a879f6a4a9b7939fe",
+                "reference": "b4cb1c04aac9acd1953f9b3a879f6a4a9b7939fe",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,7 @@
                 "source": "https://github.com/skypress-bmo/wp-composer-hello-world-plugin/tree/master",
                 "issues": "https://github.com/skypress-bmo/wp-composer-hello-world-plugin/issues"
             },
-            "time": "2018-06-05 18:14:36"
+            "time": "2018-06-05 18:44:11"
         },
         {
             "name": "composer/installers",
