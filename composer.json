@@ -6,15 +6,14 @@
 			"url": "https://wpackagist.org"
 		},
 		{
-			"type": "path",
-			"url": "~/Plugins/wp-composer-hello-world-plugin"
+			"type": "vcs",
+			"url": "git@github.com:skypress-bmo/wp-composer-hello-world-plugin.git"
 		}
 	],
 	"require": {
 		"wpackagist-plugin/gutenberg": "~3.0.0",
 		"wpackagist-theme/edsbootstrap": "~2.0",
 		"wpackagist-plugin/wordpress-seo": "~7.6",
-		"wpackagist-plugin/subtitles": "^3.0",
-		"SkyPress/wp-composer-hello-world": "dev-master"
+		"wpackagist-plugin/subtitles": "^3.0"
 	}
 }
