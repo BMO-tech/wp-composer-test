@@ -6,6 +6,9 @@
 *.swp
 Thumbs.db
 
+# No Vendor Dir
+vendor/*
+
 # wordpress specific
 wp-config.php
 wp-content/uploads/
