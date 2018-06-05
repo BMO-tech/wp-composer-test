@@ -1,0 +1,20 @@
+{
+	"name": "SkyPress/wp-composer-test",
+	"description": "SkyPress WordPress Composer Test Project",
+	"repositories": [{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "path",
+			"url": "~/Plugins/wp-composer-hello-world-plugin"
+		}
+	],
+	"require": {
+		"wpackagist-plugin/gutenberg": "~3.0.0",
+		"wpackagist-theme/edsbootstrap": "~2.0",
+		"wpackagist-plugin/wordpress-seo": "~7.6",
+		"wpackagist-plugin/subtitles": "^3.0",
+		"SkyPress/wp-composer-hello-world": "dev-master"
+	}
+}
