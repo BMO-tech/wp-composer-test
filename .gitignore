@@ -5,6 +5,7 @@
 *.bak
 *.swp
 Thumbs.db
+.htaccess
 
 # No Vendor Dir
 wp-content/*

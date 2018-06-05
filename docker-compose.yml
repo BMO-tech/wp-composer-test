@@ -6,7 +6,7 @@ services:
         links:
             - mysqldb:mysql
         volumes:
-            - ./wp-content:/var/www/html/wp-content
+            - ./:/var/www/html
         ports:
             - 8080:80
         environment:

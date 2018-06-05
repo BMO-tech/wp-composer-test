@@ -13,18 +13,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/skypress-bmo/wp-composer-hello-world-plugin.git",
-                "reference": "b4cb1c04aac9acd1953f9b3a879f6a4a9b7939fe"
+                "reference": "cb2255c7a87b8c83442d4b7df20df5594bc37b09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skypress-bmo/wp-composer-hello-world-plugin/zipball/b4cb1c04aac9acd1953f9b3a879f6a4a9b7939fe",
-                "reference": "b4cb1c04aac9acd1953f9b3a879f6a4a9b7939fe",
+                "url": "https://api.github.com/repos/skypress-bmo/wp-composer-hello-world-plugin/zipball/cb2255c7a87b8c83442d4b7df20df5594bc37b09",
+                "reference": "cb2255c7a87b8c83442d4b7df20df5594bc37b09",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "SPWPC\\": "src/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -39,7 +44,7 @@
                 "source": "https://github.com/skypress-bmo/wp-composer-hello-world-plugin/tree/master",
                 "issues": "https://github.com/skypress-bmo/wp-composer-hello-world-plugin/issues"
             },
-            "time": "2018-06-05 18:44:11"
+            "time": "2018-06-05 22:32:59"
         },
         {
             "name": "SkyPress/wp-composer-theme",
