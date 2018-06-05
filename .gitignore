@@ -7,7 +7,7 @@
 Thumbs.db
 
 # No Vendor Dir
-vendor/*
+#vendor/*
 
 # wordpress specific
 wp-config.php
